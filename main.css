@@ -76,3 +76,7 @@ ul li:hover {
     text-decoration: line-through;
     color: gray;
 }
+
+footer {
+padding: 256px 8px ;
+}
