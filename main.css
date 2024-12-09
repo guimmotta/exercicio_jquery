@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: #40826d;
+    color: #fff;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    margin-top: 32px;
+    max-width: 940px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 128px auto;
+}
+
+button,
+input {
+    max-width: 100%;
+    width: auto;
+    margin-left: 8px;
+    border: none;
+    padding: 18px;
+}
+
+input {
+    background-color: #e7e7e7;
+}
+
+button {
+    background-color: #40826d;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #54a289;
+}
+
+input:focus {
+    outline: 2px solid #54a289;
+    outline-offset: 2px;
+}
+
+
+.activity-list li {
+    list-style: none;
+    padding: 16px;
+    cursor: pointer
+}
+
+ul li:hover {
+    text-decoration: underline;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
